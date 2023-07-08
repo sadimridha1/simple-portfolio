@@ -1,0 +1,67 @@
+/* Common shared styles */
+
+.text-primary{
+    color: #FD6E0A;
+}
+
+.btn-primary{
+    border-radius: 5px;
+    background: #FD6E0A;
+    border: 0;
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    padding: 18px 35px;
+}
+
+/* nav related styles */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+     
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 50px 20px 146px;
+}
+
+nav .nav-title{
+    color: black;
+    font-size: 45px;
+}
+
+nav > ul{
+    display: flex;
+    align-items: center;
+}
+
+nav li{
+    list-style: none;
+    margin-right: 50px;
+}
+
+nav li a{
+    text-decoration: none;
+    color: #474747;
+}
+
+/* header styles */
+.header{
+    background-color: #FFF8F3;
+}
+
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+
+.banner .profile-img{
+    width: 500px;
+}
